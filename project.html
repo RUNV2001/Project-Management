@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PRAJA PALANA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./project.css">
+</head>
+
+<body>
+    <header>
+        <span onclick="toggleMenu()">&#9776;</span>
+       PRAJA PALANA SITE
+    </header>
+    <div class="Main-conatainer"> 
+        <div class="menu-block">
+            <ul id="menuList">
+                
+            </ul>
+
+        </div>
+        <div class="container-block">
+
+            <div class="add-board-block">
+                <div class="input-board">
+                    <input class="search-block" id="newBoardText" value="" type="text" placeholder="eg......1 2 3 4"> 
+                    <button id="add-btn" onclick="addBoard(newBoardText)">Add Board</button>
+                </div>
+                <div id="boardBlockList">
+
+                </div>
+                <section>
+                    
+                    <div class="board-block" id="ProjectList">
+                       
+                    </div>
+                </section>
+                <script src="./project.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
